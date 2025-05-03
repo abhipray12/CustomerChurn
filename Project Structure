@@ -1,0 +1,19 @@
+churn-prediction-databricks/
+│
+├── README.md
+├── data/
+│   └── sample_data.csv        # (optional small sample for preview)
+│
+├── notebooks/
+│   ├── 01_data_ingestion.py
+│   ├── 02_etl_delta_lake.py
+│   ├── 03_sql_analytics_exploration.py
+│   ├── 04_feature_engineering.py
+│   ├── 05_model_training.py
+│   └── 06_predict_store_churn.py
+│
+├── utils/
+│   └── helpers.py             # (reusable functions if needed)
+│
+└── output/
+    └── model_metrics.json     # (optional: model results or predictions)
